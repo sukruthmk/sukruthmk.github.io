@@ -1,0 +1,370 @@
+body, html {
+    height: 100%;
+}
+
+.bg-purple {
+  min-height: 4rem;
+  background-color: #563d7c;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1);
+}
+
+.bd-navbar .navbar-nav .nav-link {
+    color: #cbbde2;
+}
+
+.bd-navbar .navbar-nav .nav-link.active, .bd-navbar .navbar-nav .nav-link:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.bd-navbar .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+/* The hero image */
+.hero-container {
+    /* Set the hero background-color */
+    background-color: #563d7c;
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* position the backgorud*/
+    /* position: relative; */
+}
+
+/* Transparent navbar */
+.bg-transparent {
+    background-color: transparent;
+}
+
+/* Custom navbar-toggler CSS */
+.navbar-toggler-custom {
+    border: none;
+}
+
+/* Hero text styling */
+.hero-text-container {
+    padding-top: 100px;
+}
+
+/* Text text-highlighted */
+.hero-text-highlighted {
+    color: #c6c6c6;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    font-family: Montserrat, serif;
+	color: #fae586;
+}
+
+.ai-container {
+    margin-top: 40px;
+}
+
+.cmd-top {
+    width: 100%;
+    height: 22px;
+    border-radius: 5px;
+    background-color: #cccccc;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cmd-bottom {
+	background-color: #383737;
+    padding: 15px;
+}
+
+.cmd-container {
+    padding-left: 10px;
+}
+
+.cmd-container .cmd-text {
+	font-family: Montserrat, serif;
+	font-size: 1em;
+	color: #fafafa;
+}
+
+.cmd-container .cmd-input {
+    background: 0 0;
+    outline: 0;
+    border: 0;
+    font-family: Montserrat, serif;
+    color: #fafafa;
+    text-shadow: 0 0 0 #444;
+    font-size: 1em;
+    position: absolute;
+}
+
+/* About page */
+.about-container {
+    padding-top: 50px;
+}
+
+.about-heading-text {
+    font-family:  Merriweather, serif;
+	font-size: 2rem;
+	font-weight: 900;
+	color: #000000;
+}
+
+.about-mini-text-container {
+    margin-top: 15px;
+}
+
+.about-mini-text {
+    font-family: Montserrat, serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #666666;
+}
+
+.about-text-container {
+    margin-top: 15px;
+}
+
+.about-text {
+	font-family: Montserrat, serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #3f1111;
+}
+
+.about-image-wrapper {
+    margin-top: 10px;
+}
+
+.social-wrapper {
+  display: inline-flex;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.social-wrapper i {
+  padding: 0px 15px;
+}
+
+.social-wrapper .social-icon {
+    font-size: 3rem;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+}
+
+.social-wrapper .social-icon:hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+}
+
+.social-wrapper .social-icon-facebook {
+    color: #4867AA;
+}
+
+.social-wrapper .social-icon-twitter {
+    color: #1DA1F2;
+}
+
+.social-wrapper .social-icon-github {
+    color: #444;
+}
+
+.social-wrapper .social-icon-instagram {
+    color: #125688;
+}
+
+.social-wrapper .social-icon-linkedin {
+    color: #007bb5;
+}
+
+/* Contact Page */
+.contact-container {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.contact-me-heading {
+	font-family: Montserrat, serif;
+	font-size: 2em;
+	font-weight: 500;
+	color: #535371;
+}
+
+.contact-form .contact-input {
+	width: 300px;
+	height: 30px;
+	border: solid 1px #9b9b9b;
+    padding: 15px;
+}
+
+.contact-form .form-input-container {
+    margin-top: 15px;
+}
+
+.contact-form .contact-textarea {
+    width: 300px;
+    height: 120px;
+    border: solid 1px #9b9b9b;
+    padding: 15px;
+}
+
+.contact-container .contact-success {
+    width: 300px;
+    display: none;
+}
+
+.form-submit-container {
+    margin-top: 6%;
+    margin-left: 20%;
+}
+
+.form-submit-container .submit-button{
+	width: 100px;
+	height: 34px;
+	border-radius: 70px;
+    font-size: 1em;
+    font-family: Montserrat, serif;
+	background-color: #009e89;
+}
+
+.contact-container .contact-image-container {
+    display: none;
+}
+
+.contact-container .contact-form-container {
+
+}
+
+/* Portfolio page */
+.portfolio-container {
+    padding-top: 50px;
+}
+
+.portfolio-container .portfolio-col {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* media queries for font */
+@media (min-width: 544px) {
+  .hero-text {
+    font-size: 1rem;
+  }
+
+  .ai-container {
+     font-size: 0.8rem;
+  }
+
+  .about-container {
+      padding-top: 50px;
+  }
+
+  .about-image-container {
+     margin-top: 15px;
+  }
+
+  .social-wrapper {
+      margin-top: 20px;
+  }
+
+  .social-wrapper .social-icon {
+      font-size: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-text {
+    font-size: 1.2rem;
+  }
+
+  .ai-container {
+      font-size: 0.9rem;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+
+  .about-container {
+      padding-top: 80px;
+  }
+
+  .about-image-container {
+     margin-top: 15px;
+  }
+
+  .social-wrapper {
+      margin-top: 40px;
+  }
+
+  .social-wrapper .social-icon {
+      font-size: 5rem;
+  }
+
+  .contact-container .contact-form-container {
+      padding-top: 30px;
+  }
+
+  .contact-container .contact-image-container {
+    display: inherit;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-text {
+    font-size: 1.4rem;
+  }
+
+  .about-container {
+      padding-top: 120px;
+      height: 100%;
+  }
+
+  .contact-container {
+      height: 100%;
+  }
+
+  .ai-container {
+      font-size: 1rem;
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+
+  .rwd-line {
+      display: block;
+  }
+
+  .social-wrapper {
+      margin-top: 60px;
+  }
+
+  .social-wrapper .social-icon {
+      font-size: 5rem;
+  }
+
+  .contact-container {
+      padding-top: 120px;
+  }
+
+  .contact-container .contact-image-container {
+      padding-left: 100px;
+      display: inherit;
+  }
+
+  .contact-container .contact-form-container {
+      padding-top: 30px;
+  }
+
+  .portfolio-container {
+      padding-top: 120px;
+  }
+
+  .portfolio-container .portfolio-row-container {
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+
+  .portfolio-container .portfolio-col {
+      margin-top: inherit;
+      margin-bottom: inherit;
+  }
+}
